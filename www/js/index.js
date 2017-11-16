@@ -14,12 +14,12 @@ function submitText() {
 	if (randomNum == 0) {
 		
 		navigator.notification.beep(1);
-		navigator.vibrate([1000,1000,1000]);
+		navigator.vibrate(1000);
 		
 	} else {
 		
 		navigator.notification.beep(2);
-		navigator.vibrate([2000]);
+		navigator.vibrate(2000);
 		
 	}
 	
